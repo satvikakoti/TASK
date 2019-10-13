@@ -110,9 +110,11 @@ IR Sensor or Infrared Sensor has two main parts. IR Transmitter and IR Receiver.
 If there is an object in front of IR sensor, the transmitted infrared waves from IR transmitter reflects from that object and is received by the IR receiver. IR sensor gives 0 in this condition. Whereas, if there is no object in front of the IR sensor, the transmitted infrared waves from IR transmitter is not received by the IR receiver. And IR sensor gives 1 in this condition.
 
 For a white surface:
+
 ![Working of IR transmitter and receiver on White Surface](https://i1.wp.com/etechnophiles.com/wp-content/uploads/2018/10/Concept-of-White-Line-Follo.gif?resize=300%2C202&ssl=1)
 
 For a black surface:
+
 ![](https://i2.wp.com/etechnophiles.com/wp-content/uploads/2018/10/Concept-of-Black-Line-Follo.gif?resize=300%2C205&ssl=1)
 
 Pinout of an IR sensor:
