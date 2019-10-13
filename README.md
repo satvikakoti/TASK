@@ -15,7 +15,7 @@
    **2.Motor drivers**
 -   L293D
    -   L298N
-    -   MDD10A
+   -   MDD10A
     
 **3.Communication protocols**
 -   SPI
@@ -160,3 +160,54 @@ Photoresistors are less light-sensitive devices than [photodiodes](https://en.wi
 
 ![Related image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlbhmN3quytYAIikP1MEvFnvpY6k43Ybp2jJ4blhi1uAVO-aNx)
 
+
+
+## MOTOR DRIVERS
+
+### L293D Motor Driver IC
+
+L293D is a typical Motor driver or Motor Driver IC which allows DC motor to drive on either direction. L293D is a 16-pin IC which can control a set of two DC motors simultaneously in any direction.
+
+It works on the concept of H-bridge. H-bridge is a circuit which allows the voltage to be flown in either direction. As you know voltage need to change its direction for being able to rotate the motor in clockwise or anticlockwise direction, Hence H-bridge IC are ideal for driving a DC motor.
+
+In a single L293D chip there are two h-Bridge circuit inside the IC which can rotate two dc motor independently. Due its size it is very much used in robotic application for controlling DC motors.
+
+![Related image](https://robu.in/wp-content/uploads/2018/11/robu-5-11.jpg)
+
+#### Working of L293D
+
+There are 4 input pins for l293d, pin 2,7 on the left and pin 15 ,10 on the right as shown on the pin diagram. Left input pins will regulate the rotation of motor connected across left side and right input for motor on the right hand side. The motors are rotated on the basis of the inputs provided across the input pins as LOGIC 0 or LOGIC 1.
+
+#### L293D Logic Table.
+
+•**Pin 2** = **Logic 1** and **Pin 7** = **Logic 0** 
+| Clockwise Direction  
+• **Pin 2** = **Logic 0** and **Pin 7** = **Logic 1** 
+| Anticlockwise Direction  
+• **Pin 2** = **Logic 0** and **Pin 7** = **Logic 0**
+ | Idle (No rotation) [Hi-Impedance state]  
+• **Pin 2** = **Logic 1** and **Pin 7** = **Logic 1** 
+| Idle (No rotation)
+
+![https://www.rakeshmondal.info/pik/l293d%20cirucit%20diagram.png](https://www.rakeshmondal.info/pik/l293d%20cirucit%20diagram.png)
+
+#### SCHEMATIC REPRESENTATION OF L293D PIN
+
+![L293D IC Pin Configuration](https://www.elprocus.com/wp-content/uploads/2015/03/L293D-IC-Pin-Configuration.jpg)
+
+ L293D IC Pin Configuration:
+
+-  ##### Pin-1 (Enable 1-2): When the enable pin is high, then the left part of the IC will work otherwise it won’t work. This pin is also called as a master control pin for left part of IC.
+- #####  Pin-2 (Input-1): When the input pin is high, then the flow of current will be through output 1
+- #####  Pin-3 (Output-1): This output-1 pin must be connected to one of the terminals of the motor
+- #####  Pin4 &5: These pins are ground pins
+- #####  Pin-6 (Output-2): This pin must be connected to one of the terminals of the motor.
+- #####  Pin-7 (Input-2): When this pin is HIGH then the flow of current will be though output 2
+- #####   Pin-8 (Vcc2): This is the voltage pin which is used to supply the voltage to the motor.
+- #####   Pin-16 (Vss): This pin is the power source to the integrated circuit.
+- #####   Pin-15 (Input-4): When this pin is high, then the flow of current will be through output-4.
+- #####  Pin-14 (Output-4): This pin must be connected to one of the terminals of the motor
+- #####  Pin-12 & 13: These pins are ground pins
+- #####   Pin-11 (Output-3): This pin must be connected to one of the terminals of the motor.
+- #####   Pin-10 (Input-3): When this pin is high, then the flow of current will through output-3
+- #####  Pin-9 (Enable3-4): When this pin is high, the right part of the IC will work, otherwise it won’t work. This pin is also called as a master control pin for the right part of the IC.
