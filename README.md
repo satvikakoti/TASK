@@ -4,8 +4,7 @@
 **1.Basics**
 -   Arduino
 	  -   Analog pins
-	  -   Digital pins
-   -   Bread board
+	  -   Digital pins   -   Bread board
 	   -  	Connection pattern
   -   Infrared Sensors
 	   -    Single IR
@@ -23,7 +22,7 @@
    -   UART
 
 
-#INFORMATION
+INFORMATION
 ## BASICS
 
 ### Introduction to the Arduino Board
