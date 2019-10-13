@@ -1,7 +1,7 @@
 
 
 #	INDEX
-**1.Basics** 
+**1.Basics[#Basics]** 
 -   Arduino
 	  -   Analog pins
 	  -   Digital pins 
