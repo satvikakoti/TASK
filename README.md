@@ -157,4 +157,6 @@ Dark= 20000000Ω
 ![Light Dependent Resistor LDR Circuit Symbol](https://www.kitronik.co.uk/wp/wp-content/uploads/2015/03/how_a-light_depedant_resistor_works_circuit_symbol.jpg)
 
 Photoresistors are less light-sensitive devices than [photodiodes](https://en.wikipedia.org/wiki/Photodiode "Photodiode") or [phototransistors](https://en.wikipedia.org/wiki/Phototransistor "Phototransistor"): the two latter components are true semiconductor devices, while a photoresistor is a passive component and does not have a PN-junction.
-![Related image](https://cdn.shopify.com/s/files/1/2930/7174/products/ai_sen00001_iso2_1200x1200.jpg?v=1519278125)
+
+![Related image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlbhmN3quytYAIikP1MEvFnvpY6k43Ybp2jJ4blhi1uAVO-aNx)
+
