@@ -145,11 +145,15 @@ In the IR array if each IR sensor detected black value is lower than the set bla
 
 ### LDR Sensors
 An LDR(Light Dependent Resistor) is a component that has a (variable) resistance that changes with the light intensity that falls upon it. This allows them to be used in light sensing circuits.
+
 ![A typical LDR (Light Dependent Resistor)](https://www.kitronik.co.uk/wp/wp-content/uploads/2015/03/how_a_light_dependant_resistor_works_typical_ldr.jpg)
+
 The most common type of LDR has a resistance that falls with an increase in the light intensity falling upon the device (as shown in the image below). The resistance of an LDR may typically have the following resistances:
 
 Daylight= 5000Ω
+
 Dark= 20000000Ω
+
 ![Light Dependent Resistor LDR Circuit Symbol](https://www.kitronik.co.uk/wp/wp-content/uploads/2015/03/how_a-light_depedant_resistor_works_circuit_symbol.jpg)
 
 Photoresistors are less light-sensitive devices than [photodiodes](https://en.wikipedia.org/wiki/Photodiode "Photodiode") or [phototransistors](https://en.wikipedia.org/wiki/Phototransistor "Phototransistor"): the two latter components are true semiconductor devices, while a photoresistor is a passive component and does not have a PN-junction.
