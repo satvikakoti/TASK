@@ -7,10 +7,10 @@
 	  -   Digital pins
    -   Bread board
 	   -  	Connection pattern
-	 - Infrared Sensors
-	   - Single IR
-	   - Array of IR
-	  - LDR Sensor
+  -   Infrared Sensors
+	   -    Single IR
+	   -    Array of IR
+-  LDR Sensor
 	 	   
    **2.Motor drivers**
 -   L293D
