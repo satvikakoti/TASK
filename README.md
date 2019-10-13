@@ -12,7 +12,7 @@
 	   -    Array of IR
 -  LDR Sensor
 	 	   
-   **2.Motor drivers**
+**2.Motor drivers**
 -   L293D
    -   L298N
    -   MDD10A
