@@ -2,7 +2,7 @@
 
 ##	INDEX
 **1.Basics**
--  <Introduction to the Arduino Board> Arduino
+-   Arduino
 	  -   Analog pins
 	  -   Digital pins 
 -   Bread board
