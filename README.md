@@ -114,11 +114,13 @@ For a white surface:
 
 For a black surface:
 ![](https://i2.wp.com/etechnophiles.com/wp-content/uploads/2018/10/Concept-of-Black-Line-Follo.gif?resize=300%2C205&ssl=1)
+
 Pinout of an IR sensor:
 1) Ground
 2) 5 volt
 3) Enable
 4) Vout
+
 [Labelled image of an IR sensor](http://henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/arduino-ir-obstacle-sensor-tutorial-and-manual/)
 
 #### ---> IR SENSOR ARRAY
