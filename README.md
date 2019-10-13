@@ -23,7 +23,7 @@
    -   UART
 
 
-INFORMATION
+# INFORMATION
 ## BASICS
 
 ### Introduction to the Arduino Board
@@ -83,7 +83,6 @@ The long top and bottom row of holes are usually used for power supply connectio
 
  [![Picture of Connecting the Components](https://cdn.instructables.com/FZT/USFT/F2NOBNFA/FZTUSFTF2NOBNFA.LARGE.jpg?auto=webp&frame=1&fit=bounds)](https://cdn.instructables.com/FZT/USFT/F2NOBNFA/FZTUSFTF2NOBNFA.LARGE.jpg?auto=webp&fit=bounds) 
 
-The rest of the circuit is built by placing components and connecting them together with jumper wires. Then when a path is formed by wires and components from the positive supply node to the negative supply node, we can turn on the power and current flows through the path and the circuit comes alive.  
   
 For chips with many legs (ICs), place them in the middle of the board so that half of the legs are on one side of the middle line and half are on the other side.  
   
@@ -101,3 +100,53 @@ The rest of the circuit is built by placing components and connecting them toget
 jumper wires. Then when a path is formed by wires and components from the positive  
 supply node to the negative supply node, we can turn on the power and current flows  
 through the path and the circuit comes alive.
+
+### Infrared Sensors
+
+IR Sensor or Infrared Sensor has two main parts. IR Transmitter and IR Receiver. The work of IR transmitter or Infrared transmitter is to transmit the infrared waves whereas the work of IR receiver is to receive these infrared waves. IR receiver constantly sends digital data in the form of 0 or 1 to Vout pin of the sensor.
+![Beginners guide to IR sensor](https://i1.wp.com/etechnophiles.com/wp-content/uploads/2018/10/ir-sensor-module-for-arduino-2f-rasberry-pi-500x500.jpg?resize=300%2C275&ssl=1)
+#### Working of an IR sensor
+
+If there is an object in front of IR sensor, the transmitted infrared waves from IR transmitter reflects from that object and is received by the IR receiver. IR sensor gives 0 in this condition. Whereas, if there is no object in front of the IR sensor, the transmitted infrared waves from IR transmitter is not received by the IR receiver. And IR sensor gives 1 in this condition.
+
+For a white surface:
+![Working of IR transmitter and receiver on White Surface](https://i1.wp.com/etechnophiles.com/wp-content/uploads/2018/10/Concept-of-White-Line-Follo.gif?resize=300%2C202&ssl=1)
+
+For a black surface:
+![](https://i2.wp.com/etechnophiles.com/wp-content/uploads/2018/10/Concept-of-Black-Line-Follo.gif?resize=300%2C205&ssl=1)
+Pinout of an IR sensor:
+1) Ground
+2) 5 volt
+3) Enable
+4) Vout
+[Labelled image of an IR sensor](http://henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/arduino-ir-obstacle-sensor-tutorial-and-manual/)
+
+#### ---> IR SENSOR ARRAY
+The IR sensor array is a device with 7 mounted infrared sensors. Each IR sensor is capable of detecting black and white colors. The array is capable of emitting sounds.
+
+The IR array can perform detection at proper distances. The infrared sensors transmitters/receivers have optimal operating range of 0-5CM.
+
+![Image result for array of ir sensors](https://cdn.instructables.com/FW5/62OO/J0MOPATB/FW562OOJ0MOPATB.LARGE.jpg?auto=webp&&frame=1&width=1024&fit=bounds)
+In the IR array if each IR sensor detected black value is lower than the set black value ,the values will be assigned as shown below; the LED turns on.
+
+| BIT | 		Name		 |
+|--|--|
+| Bit 0 | Black detection for IR sensor #1 |
+| Bit 1 |Black detection for IR sensor #2
+|Bit 2|Black detection for IR sensor #3|
+| Bit 3 | Black detection for IR sensor #4 |
+| Bit 4 |Black detection for IR sensor #5
+|Bit 5|Black detection for IR sensor #6|
+|  Bit 6| Black detection for IR sensor #7 |
+
+### LDR Sensors
+An LDR(Light Dependent Resistor) is a component that has a (variable) resistance that changes with the light intensity that falls upon it. This allows them to be used in light sensing circuits.
+![A typical LDR (Light Dependent Resistor)](https://www.kitronik.co.uk/wp/wp-content/uploads/2015/03/how_a_light_dependant_resistor_works_typical_ldr.jpg)
+The most common type of LDR has a resistance that falls with an increase in the light intensity falling upon the device (as shown in the image below). The resistance of an LDR may typically have the following resistances:
+
+Daylight= 5000Ω
+Dark= 20000000Ω
+![Light Dependent Resistor LDR Circuit Symbol](https://www.kitronik.co.uk/wp/wp-content/uploads/2015/03/how_a-light_depedant_resistor_works_circuit_symbol.jpg)
+
+Photoresistors are less light-sensitive devices than [photodiodes](https://en.wikipedia.org/wiki/Photodiode "Photodiode") or [phototransistors](https://en.wikipedia.org/wiki/Phototransistor "Phototransistor"): the two latter components are true semiconductor devices, while a photoresistor is a passive component and does not have a PN-junction.
+![Related image](https://cdn.shopify.com/s/files/1/2930/7174/products/ai_sen00001_iso2_1200x1200.jpg?v=1519278125)
