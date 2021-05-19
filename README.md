@@ -68,7 +68,7 @@ In addition to the specific functions listed below, the analog input pins suppor
 
 ### Breadboard
 A breadboard is sometimes known as a solderless breadboard. It has lots of holes that you can stick wires or electronic components into, and which are connected inside the breadboard. This lets you create a circuit containing multiple components without having to physically attach them to each other.
-[Breadboard Image](https://en.wikipedia.org/wiki/File:400_points_breadboard.jpg)
+[Breadboard Image](https://upload.wikimedia.org/wikipedia/commons/7/73/400_points_breadboard.jpg)
 
 #### Step 1: The Breadboard Connections
 ![Image result for breadboard connections](https://cdn.instructables.com/FTG/1AAH/F23XWM7G/FTG1AAHF23XWM7G.LARGE.gif?auto=webp&fit=bounds)
